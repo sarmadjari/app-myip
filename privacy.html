@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy - MyIP</title>
+  <meta name="description" content="Privacy Policy for MyIP">
+  <style>
+    :root {
+      --bg: #f2f2f7;
+      --card: #ffffff;
+      --text: #111111;
+      --muted: #8e8e93;
+      --line: #e5e5ea;
+      --accent: #0a84ff;
+      --shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+      --radius: 28px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+                   "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    body {
+      min-height: 100vh;
+    }
+
+    .wrap {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+
+    .hero {
+      margin-bottom: 28px;
+    }
+
+    .app-name {
+      font-size: clamp(40px, 7vw, 64px);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin: 0 0 8px;
+    }
+
+    .subtitle {
+      margin: 0;
+      font-size: 18px;
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 28px 26px;
+      margin: 22px 0;
+    }
+
+    h2 {
+      margin: 0 0 16px;
+      font-size: 18px;
+      color: var(--muted);
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    p {
+      margin: 0 0 14px;
+      font-size: 18px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    .rows {
+      margin-top: 6px;
+    }
+
+    .row {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 16px 0;
+    }
+
+    .row + .row {
+      border-top: 1px solid var(--line);
+    }
+
+    .label {
+      min-width: 220px;
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .value {
+      flex: 1;
+      font-size: 18px;
+      color: var(--muted);
+      text-align: right;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 22px;
+    }
+
+    li {
+      margin: 8px 0;
+      font-size: 18px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      text-align: center;
+      color: var(--muted);
+      margin-top: 40px;
+      font-size: 16px;
+    }
+
+    .heart {
+      color: #ff3b30;
+    }
+
+    @media (max-width: 720px) {
+      .wrap {
+        padding: 28px 16px 60px;
+      }
+
+      .card {
+        padding: 22px 18px;
+        border-radius: 24px;
+      }
+
+      .row {
+        flex-direction: column;
+        gap: 6px;
+      }
+
+      .label,
+      .value {
+        min-width: 0;
+        text-align: left;
+      }
+
+      p, li, .label, .value {
+        font-size: 17px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <h1 class="app-name">MyIP</h1>
+      <p class="subtitle">Privacy Policy</p>
+    </section>
+
+    <section class="card">
+      <h2>Overview</h2>
+      <p><strong>Last updated:</strong> March 8, 2026</p>
+      <p>MyIP is designed with your privacy in mind. The app does not collect, store, or share any personal data.</p>
+    </section>
+
+    <section class="card">
+      <h2>What the App Does</h2>
+      <p>MyIP retrieves your public IP address and approximate location, including city, region, and country, by sending a request to third-party IP lookup services. It also reads your device's local WiFi IP address.</p>
+      <p>This information is displayed on-screen and is never stored, logged, or transmitted to any server operated by us.</p>
+    </section>
+
+    <section class="card">
+      <h2>Third-Party Services</h2>
+      <p>The app uses the following third-party services to look up your public IP address and approximate location:</p>
+      <div class="rows">
+        <div class="row">
+          <div class="label">ipinfo.io</div>
+          <div class="value"><a href="https://ipinfo.io/privacy" target="_blank" rel="noopener noreferrer">https://ipinfo.io/privacy</a></div>
+        </div>
+        <div class="row">
+          <div class="label">ip-api.com</div>
+          <div class="value"><a href="https://ip-api.com/docs/legal" target="_blank" rel="noopener noreferrer">https://ip-api.com/docs/legal</a></div>
+        </div>
+      </div>
+      <p style="margin-top:16px;">These services receive your IP address as part of the standard HTTP request. Please refer to their respective privacy policies for details on how they handle your data.</p>
+    </section>
+
+    <section class="card">
+      <h2>Data Collection</h2>
+      <p>We do not collect, store, or transmit any of the following:</p>
+      <ul>
+        <li>Personal information</li>
+        <li>IP addresses</li>
+        <li>Location data</li>
+        <li>Usage analytics</li>
+        <li>Device identifiers</li>
+        <li>Crash reports</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Data Sharing</h2>
+      <p>We do not share any data with third parties, advertisers, or data brokers.</p>
+    </section>
+
+    <section class="card">
+      <h2>Clipboard</h2>
+      <p>The app copies your IP address to the clipboard only when you explicitly choose to do so via the context menu. No data is copied automatically.</p>
+    </section>
+
+    <section class="card">
+      <h2>Children's Privacy</h2>
+      <p>The app does not knowingly collect any information from anyone, including children under the age of 13.</p>
+    </section>
+
+    <section class="card">
+      <h2>Changes to This Policy</h2>
+      <p>If this privacy policy is updated, the revised version will be posted at this URL with an updated date.</p>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p>If you have questions about this privacy policy, contact us at: <a href="mailto:your@email.com">your@email.com</a></p>
+    </section>
+
+    <div class="footer">
+      Made with <span class="heart">♥</span> for MyIP
+    </div>
+  </main>
+</body>
+</html>
